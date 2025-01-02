@@ -4,5 +4,5 @@ name=$1
 Age=$2
 
 #output the values  
-echo "user name is:$name"
-echo "user age is :$Age"
+echo "user name is:$1name"
+echo "user age is :$2Age"
