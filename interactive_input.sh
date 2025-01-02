@@ -10,4 +10,4 @@ read age
 
 #output the values entered bu user
 
-eccho "Hello, $Name. you are $age years old"
+echo "Hello, $Name. you are $age years old"
