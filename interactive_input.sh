@@ -6,8 +6,8 @@ read Name
 
 echo "Enter your age:"
 
-read Age
+read age
 
 #output the values entered bu user
 
-eccho "Hello $Name, you are $Age years old"
+eccho "Hello, $Name. you are $age years old"
