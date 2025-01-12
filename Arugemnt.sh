@@ -2,7 +2,7 @@
 echo "Number of argument:$#"
 echo "Script Name:$0"
 echo "First arugemtnt:$1"
-echo"second arughemnt is $2"
+echo "second arughemnt is $2"
 echo "third argument is:$3"
 echo "fourth arument is :$4"
 echo "fifith argument is:$5"
