@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Define color variables
@@ -7,11 +8,11 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Prompt for username
-read -p "$(echo -e ${CYAN}Enter User Name:${NC}) " User
+read -p "$(echo -e "${CYAN}Enter User Name:${NC}") " User
 
 # Password validation loop
 while true; do
-    read -s -p "$(echo -e ${CYAN}Enter Password (min 8 characters):${NC}) " Password
+    read -s -p "$(echo -e "${CYAN}Enter Password (min 8 characters):${NC}") " Password
     echo
     if [[ ${#Password} -ge 8 ]]; then
         echo -e "${GREEN}Password accepted.${NC}"
