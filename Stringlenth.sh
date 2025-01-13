@@ -4,5 +4,5 @@ read -p "Enter word Name:" Word
 
 echo "The world name is:"${Word}
 
-echo "${Word} | wc -c"
+echo "$({Word} | wc -c)"
 
