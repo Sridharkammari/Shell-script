@@ -1,8 +1,8 @@
 #!/bin/bash
-Read -p "Enter A Value:" A
-Read -p "Enter B Value:" B
-Read -p "Enter C Value:" C
-Read -p "Enter D Value:" D
+read -p "Enter A Value:" A
+read -p "Enter B Value:" B
+read -p "Enter C Value:" C
+read -p "Enter D Value:" D
 
 echo "The A values is:$A"
 echo "The B values is:$B"
