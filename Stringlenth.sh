@@ -4,5 +4,8 @@ read -p "Enter word Name:" Word
 
 echo "The world name is:"${Word}
 
-echo "$({Word} | wc -c)"
+Lenth=$(echo -n $Woed | wc -c)
+
+echo "THe lenth of string is $Word:$Lenth
+
 
