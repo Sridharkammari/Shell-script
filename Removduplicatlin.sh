@@ -1,5 +1,5 @@
-#!/bin/bash
-read -p "enter thee file name to remove the duplicates:" Fname
-sort -u $Fname > temp.txt
-mv temp.txt $Fname
-echo " THe all duplicate values has been removed from $Fname"
+#! /bin/bash
+read -p "Enter any File name to remove duplicate lines:" fname
+sort -u $fname > temp.txt
+mv temp.txt $fname
+echo "In $fname all duplicate lines deleted"
