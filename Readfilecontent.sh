@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 
 read -p "Enter the file to read:" Fname
 
