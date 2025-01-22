@@ -1,9 +1,7 @@
-#! bin/bash
-
-read -p "Enter the Empdept:" Dept
-
-if [ $Dept = "Sales"]
+#! /bin/bash
+read -p "Enter Your Name:" name
+if [ $name = "sunny" ]
 then
-echo "you need visit the brach everyday"
-fi  
-echo "you can do work from home"
+echo "Hello Sunny Very Good Evening"
+fi
+echo "How are you"
