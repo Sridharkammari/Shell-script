@@ -1,8 +1,10 @@
-#!/bin/basj
-read -p "Enter the dept Name:" Dept
-if [ "$Dept" = "sales" ]
+#! /bin/bash
+
+read -p "Enter the dept name of the emp:" Dept
+
+if [ $dept = "sales" ]
 then
- echo "you need to work from office."
- else
- echo "you need to work from home."
- fi
+echo "you should work from office."
+else
+echo "you should work from home."
+fi
