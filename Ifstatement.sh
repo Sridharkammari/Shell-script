@@ -1,7 +1,7 @@
 #! /bin/bash
-read -p "Enter Your Name:" name
-if [ $name = "sunny" ]
+read -p "Enter Your Name of the dept:" dept
+if [ $dept = "sales" ]
 then
-echo "Hello Sunny Very Good Evening"
+echo "you should work from office"
 fi
-echo "How are you"
+echo "you can work from the home"
