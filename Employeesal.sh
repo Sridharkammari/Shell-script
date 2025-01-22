@@ -1,7 +1,5 @@
 #! /bin/bash
-
-read -p "enter the emp salary:" Sal
-
-bouns = bc $($sal%25)
-
-echo "THe emp bouns is: $bouns"
+read -p "Enter Employee Monthly Salary:" salary
+annual_salary=$[salary*12]
+bonus=$[annual_salary*25/100]
+echo "The Bonus:$bonus"
