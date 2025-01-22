@@ -2,7 +2,7 @@
 
 read -p "Enter the dept name of the emp:" Dept
 
-if [ $dept = "sales" ]
+if [ "$dept" = "sales" ]
 then
 echo "you should work from office."
 else
