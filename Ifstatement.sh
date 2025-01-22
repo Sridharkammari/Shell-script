@@ -1,9 +1,11 @@
-#! bin/bash
+#!/bin/bash
+
 read -p "Enter the dept Name:" Dept
-if [ "$Dept" = "sales" ]
-then
-echo "you need to work from office"
+
+if [ "$Dept" = "sales" ]; then
+  echo "You need to work from office."
+else
+  echo "You can work from home."
 fi
-echo "you can work from home"
 
 
