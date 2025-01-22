@@ -1,6 +1,6 @@
 #! bin/bash
 read -p "Enter the dept Name:" Dept
-if [ $dept = "sales"]
+if [ $Dept = "sales"]
 then
 echo "you need to work from office"
 fi
