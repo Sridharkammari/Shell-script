@@ -3,8 +3,7 @@
 if [ $(whoami) = "root" ];then
    echo "ps -aux | head -n 6"   
 else
-   please login as root user
-
+   echo "please login as root user"
 fi
 
 
